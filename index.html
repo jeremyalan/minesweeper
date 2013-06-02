@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="styles/minesweeper.css" />
+
+      <script type="text/javascript" src="scripts/jquery.min.js"></script>
+      <script type="text/javascript" src="scripts/minesweeper.js"></script>
+   </head>
+   <body>
+      <div class="options">
+         <div>
+            <label>Rows: </label>
+            <input type="text" name="Rows" value="10" />
+         </div>
+         <div>
+            <label>Columns: </label>
+            <input type="text" name="Columns" value="10" />
+         </div>
+         <div>
+            <label># of Mines: </label>
+            <input type="text" name="TotalMines" value="10" />   
+         </div>
+
+         <button type="button" name="Generate">Generate</button>   
+      </div>
+      <div class="game"></div>
+      <button type="button" name="ShowMines">Show Mines</button>
+   </body>
+</html>

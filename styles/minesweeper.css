@@ -1,0 +1,46 @@
+.options label {
+   display: inline-block;
+   width: 100px;
+}
+
+.options input {
+   width: 250px;
+}
+
+.options button {
+   width: 360px;
+}
+
+.game {
+   float: left;
+
+   border-left: 1px solid black;
+   border-top: 1px solid black;
+   margin-top: 20px;
+}
+
+.row {
+   clear: both;
+}
+
+.cell {
+   width: 20px;
+   height: 30px;
+
+   text-align: center;
+   padding: 0 5px;
+   line-height: 30px;
+
+   border-bottom: 1px solid black;
+   border-right: 1px solid black;
+
+   float: left;
+}
+
+.cell.pressed {
+   background: green;
+}
+
+.cell.explode {
+   background: red !important;
+}
